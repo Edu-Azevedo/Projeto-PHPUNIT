@@ -1,0 +1,23 @@
+{
+    "name": "aluno/php_unit",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\PhpUnit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4":{
+            "test\\":"test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mano MM",
+            "email": "eduardoaazevedo18@gmail.com"
+        }
+    ],
+    "phpunit/php-code-coverage": "^4.0.3",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
